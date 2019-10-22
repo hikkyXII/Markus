@@ -23,7 +23,7 @@ Tk().withdraw()  # we don't want a full GUI, so keep the root window from appear
 
 raw_var = main_config["current"]["var_to_indicate_row"]
 
-messagebox.showinfo("Warning!", "Please close all Excel documents!!!")
+messagebox.showinfo("Warning!", "Please close all Excel documents or you can lost unsaved data!!!")
 xlsm_input = askopenfilename(initialdir=main_config["current"]["source_file_dir"], title="Choose data source Excel file",
                              filetypes=(("Excel Document", "*.xl*"),))  # show an "Open" dialog box and return the path to the selected file
 
@@ -95,3 +95,4 @@ except Exception as err:
 finally:
     if os.path.exists(data_file):
         os.remove(data_file)
+messagebox.showinfo("Markus", "Done")
