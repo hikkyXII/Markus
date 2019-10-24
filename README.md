@@ -21,8 +21,11 @@
    - complete_data_sheet_name    - name of sheet in Excel file which should be processed
    - lines_to_skip               - number of lines used for description(yellow color in examples)
    - var_to_indicate_row         - variable to indicate row as filled 
-   
+
+Ready for use executable is in the Release section. Made by [auto_py_to_exe](https://github.com/brentvollebregt/auto-py-to-exe).
+
 ### Examples
 Please first try to generate documents using files and configs from examples to understand how it works. 
+
 In complex example `data.xlsm` contains VBA scripts to spell numbers.
 
