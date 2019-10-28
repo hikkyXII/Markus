@@ -14,6 +14,7 @@ pipeline {
             steps {
                 bat 'pip install -r requirements.txt'
             }
+        }
         stage("Build") {
             steps {
                 bat 'pyinstaller -F markus.py'
