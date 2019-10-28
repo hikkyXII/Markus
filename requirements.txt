@@ -1,2 +1,3 @@
 docxtpl
 pywin32
+pyinstaller

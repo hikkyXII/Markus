@@ -22,7 +22,7 @@
    - lines_to_skip               - number of lines used for description(yellow color in examples)
    - var_to_indicate_row         - variable to indicate row as filled 
 
-Ready for use executable is in the Release section. Made by [auto_py_to_exe](https://github.com/brentvollebregt/auto-py-to-exe).
+Ready for use executable is in the Release section.
 
 ### Examples
 Please first try to generate documents using files and configs from examples to understand how it works. 
