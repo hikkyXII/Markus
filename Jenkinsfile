@@ -7,7 +7,7 @@ pipeline {
     }
     options {
         buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
-        timestemps()
+        timestamps()
     }
     stages {
         stage("Install requirements") {
