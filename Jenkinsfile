@@ -23,7 +23,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'dist\markus.exe', fingerprint: true
+            archiveArtifacts artifacts: 'dist\\markus.exe', fingerprint: true
         }
     }
 }
